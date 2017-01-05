@@ -3,6 +3,7 @@
 Rendering the Earth Model Using Java programming
 
 Sara Ayubian
+
 The present report discusses the algorithms which are used in rendering of earth model in java programming and demonstrates the steps that we need in order to display an earth model on the screen. This implementation render the earth model by using both color and depth textures. It models the earth by a parametric sphere and applies a color texture map. The other algorithm which used is bump mapping in order to bring depth texture for the model of height changes on the earth and Z-buffer algorithm for visibility determination, and then implementation brings further enhances for the rendering results such as reflection map and nigh light map and it allows the user to rotate earth by using mouse and re-render the image. The algorithm considered a parametric sphere of radius more than earth’s radius in order to render the cloud which will be appear in night and user can change the view direction using arrow keys. The final result would be rendering the surface of the earth including clouds and galaxy as the background.
 
 Main : ModelEarth.java
